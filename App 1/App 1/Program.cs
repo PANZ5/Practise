@@ -118,6 +118,9 @@ namespace App_1
         {
             Console.Clear();
             Console.WriteLine("This is Game 3");
+            Console.WriteLine("Guessing game");
+            Random rand = new Random();
+            int num = rand.Next(1, 101);
             Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
             choice();
